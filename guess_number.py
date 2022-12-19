@@ -31,4 +31,4 @@ while True:
     else:
         print("Chutou baixo, o número randomico é maior que isso...")
 
-print ("Número de tentativas" + str(n_choices))
+print ("Número de tentativas: " + str(n_choices))
