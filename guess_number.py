@@ -14,4 +14,11 @@ random_number = random.randint(0, choice_number)
 while True:
     answer_user = input("Advinhe o número: ")
 
-    if answer_user
+    if answer_user.isdigit():
+        answer_user = int(answer_user)
+    else:
+        print("Erro! Valor informado não é númerico. Favor execute novamente e informe o número!")
+        continue
+
+    if answer_user == random_number:
+        print()
