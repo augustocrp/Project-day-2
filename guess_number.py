@@ -21,4 +21,9 @@ while True:
         continue
 
     if answer_user == random_number:
-        print()
+        print("Acertou!")
+        break
+    elif answer_user > random_number:
+        print("Chutou alto, o número randomico é menor que isso...")
+    else:
+        print("Chutou baixo, o número randomico é maior que isso...")
